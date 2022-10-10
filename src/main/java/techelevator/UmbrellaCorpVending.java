@@ -20,7 +20,8 @@ public class UmbrellaCorpVending {
     final static String[] main_menu = {list, purchase, exit};
     final static String addCash = "Insert cash";
     final static String selectItem = "Select item";
-    final static String[] selection_menu = {addCash, selectItem};
+    final static String finishTransaction = "Finish transaction";
+    final static String[] selection_menu = {addCash, selectItem, finishTransaction};
     final static String CSV = "vendingmachine.csv";
 
     final Scanner userInput = new Scanner(System.in);
@@ -58,12 +59,11 @@ public class UmbrellaCorpVending {
                     } else if (purchaseSelect == 2) {
                         System.out.println(itemLoader.listCurrentInventory());
                         handleTransaction();
+                    } else if (purchaseSelect == 3) {
+                        finishTransaction();
                     }
                 } else if (select == 3) {
-                    handleChangeReturn();
                     break;
-//                } else {
-//                    System.out.println();
                 }
             } catch (Exception e) {
                 System.out.println("Invalid entry occurred, try again.");
@@ -79,13 +79,13 @@ public class UmbrellaCorpVending {
             cashBox.insertCash(cashInput);
             transactionLog.writeToLog("Cash input", cashInput, cashBox.getBalance());
         } catch (NumberFormatException e) {
-            System.out.println("This machine only accepts whole dollar amounts.");
+            System.out.println("**This machine only accepts whole dollar amounts**");
         }
     }
 
     private void handleTransaction() {
         try {
-            System.out.printf("Balance %s \n Enter an item code to make a purchase >>> ", cashBox.getBalance());
+            System.out.printf("Balance: %s \n" + "Enter an item code to make a purchase >>> ", cashBox.getBalance());
             String code = userInput.nextLine();
             for (Snack snack : itemLoader.getSnacks()) {
                 if (code.equalsIgnoreCase(snack.getSlotCode())) {
@@ -94,22 +94,22 @@ public class UmbrellaCorpVending {
                         itemLoader.dispense(snack.getSlotCode());
                         System.out.printf("You bought %s for $%s ", snack.getName(), snack.getPrice());
                         System.out.println("\n" + snack.getSound());
+                    } else {
+                        throw new IllegalArgumentException();
                     }
                 }
                 transactionLog.writeToLog(snack.getName(), snack.getPrice(), cashBox.getBalance());
             }
 
         } catch (IllegalArgumentException e) {
-            System.out.println("Item out of stock or insufficient balance.");
+            System.out.println("**Item out of stock or insufficient balance**");
         }
     }
 
-    public void handleChangeReturn() {
+    public void finishTransaction() {
         transactionLog.writeToLog("Cashed out", cashBox.getBalance(), BigDecimal.ZERO);
         System.out.println(cashBox.returnChange());
-        cashBox.resetBalance();
     }
-
 
     private void MainMenuDisplay() {
         for (int i = 0; i < main_menu.length; i++) {

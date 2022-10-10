@@ -12,6 +12,7 @@ public class ItemLoader {
 
     private List<Snack> snacks = new ArrayList<>();
     private Map<String, Integer> quantity = new HashMap<>();
+    private Map<String, Integer> sales = new HashMap<>();
 
     public void loadInventory(String filePath) {
         File vend = new File(filePath);
@@ -29,15 +30,19 @@ public class ItemLoader {
                 if (type.equalsIgnoreCase("chip")) {
                     snacks.add(new Chip(code, name, price, type));
                     quantity.put(code, stock);
+                    sales.put(name, 0);
                 } else if (type.equalsIgnoreCase("candy")) {
                     snacks.add(new Candy(code, name, price, type));
                     quantity.put(code, stock);
+                    sales.put(name, 0);
                 } else if (type.equalsIgnoreCase("drink")) {
                     snacks.add(new Soda(code, name, price, type));
                     quantity.put(code, stock);
+                    sales.put(name, 0);
                 } else if (type.equalsIgnoreCase("gum")) {
                     snacks.add(new Gum(code, name, price, type));
                     quantity.put(code, stock);
+                    sales.put(name, 0);
                 }
             }
         } catch (FileNotFoundException e) {
@@ -66,6 +71,11 @@ public class ItemLoader {
         return current;
     }
 
+    public void recordSale(String snackName) {
+        if (sales.containsKey(snackName)) {
+            sales.put(snackName, sales.get((snackName) + 1));
+        }
+    }
 
     public void dispense(String code) {
         if (quantity.containsKey(code) && quantity.get(code) >= 1) {

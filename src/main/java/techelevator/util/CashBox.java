@@ -17,11 +17,12 @@ public class CashBox {
     }
 
     public BigDecimal insertCash(BigDecimal cash) {
-        BigDecimal cashRounded = cash.round(new MathContext(1, RoundingMode.HALF_DOWN));
+        BigDecimal cashRounded = cash.round(new MathContext(1, RoundingMode.DOWN));
         return balance = balance.add(cashRounded);
     }
 
     public BigDecimal debitBalance(BigDecimal snackPrice) {
+
         return balance = balance.subtract(snackPrice);
     }
 
@@ -30,25 +31,26 @@ public class CashBox {
     }
 
     public String returnChange() {
-            BigDecimal remainingBalance = getBalance();
-            int qChange = 0;
-            int dChange = 0;
-            int nChange = 0;
-            while (remainingBalance.compareTo(QUARTER) == 1) {
-                qChange += 1;
-                remainingBalance = remainingBalance.subtract(QUARTER);
-            }
-            while (remainingBalance.compareTo(DIME)  == 1) {
-                dChange += 1;
-                remainingBalance = remainingBalance.subtract(DIME);
-            }
-            while (remainingBalance.compareTo(NICKEL) == 1) {
-                nChange += 1;
-                remainingBalance = remainingBalance.subtract(NICKEL);
-            }
-            String change =  String.format("Your change is %d Quarters, %d Dimes, %d Nickels", qChange, dChange, nChange);
-            return change;
+
+        int qChange = 0;
+        int dChange = 0;
+        int nChange = 0;
+
+        while (getBalance().compareTo(QUARTER) >= 0) {
+            qChange += 1;
+            debitBalance(QUARTER);
         }
+        while (getBalance().compareTo(DIME) >= 0) {
+            dChange += 1;
+            debitBalance(DIME);
+        }
+        while (getBalance().compareTo(NICKEL) >= 0) {
+            nChange += 1;
+            debitBalance(NICKEL);
+        }
+        String change = String.format("Your change is %d Quarters, %d Dimes, %d Nickels", qChange, dChange, nChange);
+        return change;
     }
+}
 
 
