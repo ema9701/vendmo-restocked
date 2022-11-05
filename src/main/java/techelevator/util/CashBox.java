@@ -22,8 +22,12 @@ public class CashBox {
     }
 
     public BigDecimal debitBalance(BigDecimal snackPrice) {
-
-        return balance = balance.subtract(snackPrice);
+        if (balance.compareTo(snackPrice) == -1) {
+            throw new ArithmeticException();
+        } else {
+            balance = balance.subtract(snackPrice);
+        }
+        return balance;
     }
 
     public BigDecimal resetBalance() {

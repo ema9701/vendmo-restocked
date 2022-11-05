@@ -5,14 +5,13 @@ import techelevator.util.CashBox;
 import techelevator.util.ItemLoader;
 import techelevator.util.TransactionLog;
 
+import java.io.*;
 import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class UmbrellaCorpVending {
-
-    private ItemLoader itemLoader;
-    private CashBox cashBox;
-    private TransactionLog transactionLog;
 
     final static String list = "List inventory";
     final static String purchase = "Purchase item";
@@ -24,21 +23,21 @@ public class UmbrellaCorpVending {
     final static String[] selection_menu = {addCash, selectItem, finishTransaction};
     final static String CSV = "vendingmachine.csv";
 
+    private final ItemLoader itemLoader;
+    private final CashBox cashBox;
+    private final TransactionLog transactionLog;
     final Scanner userInput = new Scanner(System.in);
 
-    public UmbrellaCorpVending(ItemLoader itemLoader, CashBox cashBox, TransactionLog transactionLog) {
-        this.itemLoader = itemLoader;
-        this.cashBox = cashBox;
-        this.transactionLog = transactionLog;
+    public UmbrellaCorpVending() {
+        this.itemLoader = new ItemLoader();
+        this.cashBox = new CashBox();
+        this.transactionLog = new TransactionLog();
     }
 
 
     public static void main(String[] args) {
-        ItemLoader loader = new ItemLoader();
-        CashBox cash = new CashBox();
-        TransactionLog log = new TransactionLog();
-        UmbrellaCorpVending umbrellaCorpVending = new UmbrellaCorpVending(loader, cash, log);
-        umbrellaCorpVending.run();
+        UmbrellaCorpVending vending = new UmbrellaCorpVending();
+        vending.run();
     }
 
 
@@ -73,13 +72,21 @@ public class UmbrellaCorpVending {
     }
 
     private void handleCash() {
-        try {
-            System.out.printf("Balance: %s \n Please enter whole dollar amounts >>> ", cashBox.getBalance());
-            BigDecimal cashInput = new BigDecimal(userInput.nextLine());
-            cashBox.insertCash(cashInput);
-            transactionLog.writeToLog("Cash input", cashInput, cashBox.getBalance());
-        } catch (NumberFormatException e) {
-            System.out.println("**This machine only accepts whole dollar amounts**");
+        while (true) {
+            try {
+                System.out.printf("Balance: $%s Please enter whole dollar amounts >>> ", cashBox.getBalance());
+                BigDecimal cashInput = new BigDecimal(userInput.nextLine());
+                cashBox.insertCash(cashInput);
+                transactionLog.writeToLog("Cash input", cashInput, cashBox.getBalance());
+                System.out.printf("Balance: $%s Add more cash? Y/N", cashBox.getBalance());
+                if (userInput.nextLine().equalsIgnoreCase("y")) {
+                    continue;
+                } else {
+                    return;
+                }
+            } catch (NumberFormatException e) {
+                System.out.println("**This machine only accepts whole dollar amounts**");
+            }
         }
     }
 
@@ -87,20 +94,12 @@ public class UmbrellaCorpVending {
         try {
             System.out.printf("Balance: %s \n" + "Enter an item code to make a purchase >>> ", cashBox.getBalance());
             String code = userInput.nextLine();
-            for (Snack snack : itemLoader.getSnacks()) {
-                if (code.equalsIgnoreCase(snack.getSlotCode())) {
-                    if (cashBox.getBalance().compareTo(snack.getPrice()) >= 0 && itemLoader.getQuantity().get(snack.getSlotCode()) != 0) {
-                        cashBox.debitBalance(snack.getPrice());
-                        itemLoader.dispense(snack.getSlotCode());
-                        System.out.printf("You bought %s for $%s ", snack.getName(), snack.getPrice());
-                        System.out.println("\n" + snack.getSound());
-                    } else {
-                        throw new IllegalArgumentException();
-                    }
-                }
-                transactionLog.writeToLog(snack.getName(), snack.getPrice(), cashBox.getBalance());
-            }
-
+            Snack snack = itemLoader.getNameFromCode(code);
+            cashBox.debitBalance(snack.getPrice());
+            itemLoader.dispense(snack.getSlotCode());
+            System.out.printf("You bought %s for $%s ", snack.getName(), snack.getPrice());
+            System.out.println("\n" + snack.getSound());
+            transactionLog.writeToLog(snack.getName(), snack.getPrice(), cashBox.getBalance());
         } catch (IllegalArgumentException e) {
             System.out.println("**Item out of stock or insufficient balance**");
         }
@@ -126,6 +125,4 @@ public class UmbrellaCorpVending {
         }
         System.out.println(System.lineSeparator() + "Select an option >>> ");
     }
-
-
 }

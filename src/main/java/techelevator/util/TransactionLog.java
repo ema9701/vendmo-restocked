@@ -14,7 +14,6 @@ import java.util.Map;
 
 public class TransactionLog {
 
-
     LocalDateTime date = LocalDateTime.now();
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
     String dateInLog = date.format(formatter);
@@ -31,16 +30,13 @@ public class TransactionLog {
         }
     }
 
-    public void recordSales(Map<String, Integer> sales) {
+
+    public void recordSales(Snack soldSnack) {
         try {
             File salesLog = new File("sales.txt");
             FileOutputStream fos = new FileOutputStream(salesLog, true );
             PrintWriter writer = new PrintWriter(fos);
-            int total = 0;
-            for (Map.Entry<String, Integer> sale : sales.entrySet()) {
-                writer.printf("%s : %s", sale.getKey(), sale.getValue());
-            }
-
+            writer.printf("Name: %s, Quantity: %s", soldSnack.getName(), soldSnack.getPrice());
         } catch (FileNotFoundException fnf) {
             fnf.getMessage();
         }

@@ -199,3 +199,324 @@
 10/10/2022 19:10:55 | Heavy | PreBalance: $1.50 | PostBalance: $0.00 
 10/10/2022 19:10:55 | U-Chews | PreBalance: $0.85 | PostBalance: $0.00 
 10/10/2022 19:10:55 | Little League Chew | PreBalance: $0.95 | PostBalance: $0.00 
+29/10/2022 13:40:58 | Cash input | PreBalance: $3.00 | PostBalance: $3.00 
+29/10/2022 13:40:58 | Potato Crisps | PreBalance: $3.05 | PostBalance: $3.00 
+29/10/2022 13:40:58 | Stackers | PreBalance: $1.45 | PostBalance: $3.00 
+29/10/2022 13:40:58 | Grain Waves | PreBalance: $2.75 | PostBalance: $3.00 
+29/10/2022 13:40:58 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $3.00 
+29/10/2022 13:40:58 | Moonpie | PreBalance: $1.80 | PostBalance: $3.00 
+29/10/2022 13:40:58 | Cowtales | PreBalance: $1.50 | PostBalance: $3.00 
+29/10/2022 13:40:58 | Wonka Bar | PreBalance: $1.50 | PostBalance: $3.00 
+29/10/2022 13:40:58 | Crunchie | PreBalance: $1.75 | PostBalance: $3.00 
+29/10/2022 13:40:58 | Cola | PreBalance: $1.25 | PostBalance: $3.00 
+29/10/2022 13:40:58 | Dr. Salt | PreBalance: $1.50 | PostBalance: $3.00 
+29/10/2022 13:40:58 | Mountain Melter | PreBalance: $1.50 | PostBalance: $1.50 
+29/10/2022 13:40:58 | Heavy | PreBalance: $1.50 | PostBalance: $1.50 
+29/10/2022 13:40:58 | U-Chews | PreBalance: $0.85 | PostBalance: $1.50 
+29/10/2022 13:40:58 | Little League Chew | PreBalance: $0.95 | PostBalance: $1.50 
+29/10/2022 13:40:58 | Chiclets | PreBalance: $0.75 | PostBalance: $1.50 
+29/10/2022 13:40:58 | Triplemint | PreBalance: $0.75 | PostBalance: $1.50 
+29/10/2022 13:40:58 | Cash input | PreBalance: $50.00 | PostBalance: $51.50 
+29/10/2022 13:40:58 | Potato Crisps | PreBalance: $3.05 | PostBalance: $51.50 
+29/10/2022 13:40:58 | Stackers | PreBalance: $1.45 | PostBalance: $51.50 
+29/10/2022 13:40:58 | Grain Waves | PreBalance: $2.75 | PostBalance: $51.50 
+29/10/2022 13:40:58 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $51.50 
+29/10/2022 13:40:58 | Moonpie | PreBalance: $1.80 | PostBalance: $51.50 
+29/10/2022 13:40:58 | Cowtales | PreBalance: $1.50 | PostBalance: $51.50 
+29/10/2022 13:40:58 | Wonka Bar | PreBalance: $1.50 | PostBalance: $51.50 
+29/10/2022 13:40:58 | Crunchie | PreBalance: $1.75 | PostBalance: $51.50 
+29/10/2022 13:40:58 | Cola | PreBalance: $1.25 | PostBalance: $51.50 
+29/10/2022 13:40:58 | Dr. Salt | PreBalance: $1.50 | PostBalance: $51.50 
+29/10/2022 13:40:58 | Mountain Melter | PreBalance: $1.50 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Heavy | PreBalance: $1.50 | PostBalance: $50.00 
+29/10/2022 13:40:58 | U-Chews | PreBalance: $0.85 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Little League Chew | PreBalance: $0.95 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Chiclets | PreBalance: $0.75 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Triplemint | PreBalance: $0.75 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Potato Crisps | PreBalance: $3.05 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Stackers | PreBalance: $1.45 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Grain Waves | PreBalance: $2.75 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Moonpie | PreBalance: $1.80 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Cowtales | PreBalance: $1.50 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Wonka Bar | PreBalance: $1.50 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Crunchie | PreBalance: $1.75 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Cola | PreBalance: $1.25 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Dr. Salt | PreBalance: $1.50 | PostBalance: $50.00 
+29/10/2022 13:40:58 | Mountain Melter | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Heavy | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:40:58 | U-Chews | PreBalance: $0.85 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Little League Chew | PreBalance: $0.95 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Chiclets | PreBalance: $0.75 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Triplemint | PreBalance: $0.75 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Potato Crisps | PreBalance: $3.05 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Stackers | PreBalance: $1.45 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Grain Waves | PreBalance: $2.75 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Moonpie | PreBalance: $1.80 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Cowtales | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Wonka Bar | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Crunchie | PreBalance: $1.75 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Cola | PreBalance: $1.25 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Dr. Salt | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:40:58 | Mountain Melter | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Heavy | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:40:58 | U-Chews | PreBalance: $0.85 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Little League Chew | PreBalance: $0.95 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Chiclets | PreBalance: $0.75 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Triplemint | PreBalance: $0.75 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Potato Crisps | PreBalance: $3.05 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Stackers | PreBalance: $1.45 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Grain Waves | PreBalance: $2.75 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Moonpie | PreBalance: $1.80 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Cowtales | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Wonka Bar | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Crunchie | PreBalance: $1.75 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Cola | PreBalance: $1.25 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Dr. Salt | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:40:58 | Mountain Melter | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:40:58 | Heavy | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:40:58 | U-Chews | PreBalance: $0.85 | PostBalance: $45.50 
+29/10/2022 13:40:58 | Little League Chew | PreBalance: $0.95 | PostBalance: $45.50 
+29/10/2022 13:40:58 | Chiclets | PreBalance: $0.75 | PostBalance: $45.50 
+29/10/2022 13:40:58 | Triplemint | PreBalance: $0.75 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Potato Crisps | PreBalance: $3.05 | PostBalance: $0.00 
+29/10/2022 13:44:18 | Stackers | PreBalance: $1.45 | PostBalance: $0.00 
+29/10/2022 13:44:18 | Grain Waves | PreBalance: $2.75 | PostBalance: $0.00 
+29/10/2022 13:44:18 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $0.00 
+29/10/2022 13:44:18 | Moonpie | PreBalance: $1.80 | PostBalance: $0.00 
+29/10/2022 13:44:18 | Cowtales | PreBalance: $1.50 | PostBalance: $0.00 
+29/10/2022 13:44:18 | Wonka Bar | PreBalance: $1.50 | PostBalance: $0.00 
+29/10/2022 13:44:18 | Crunchie | PreBalance: $1.75 | PostBalance: $0.00 
+29/10/2022 13:44:18 | Cola | PreBalance: $1.25 | PostBalance: $0.00 
+29/10/2022 13:44:18 | Dr. Salt | PreBalance: $1.50 | PostBalance: $0.00 
+29/10/2022 13:44:18 | Cash input | PreBalance: $50.00 | PostBalance: $50.00 
+29/10/2022 13:44:18 | Potato Crisps | PreBalance: $3.05 | PostBalance: $50.00 
+29/10/2022 13:44:18 | Stackers | PreBalance: $1.45 | PostBalance: $50.00 
+29/10/2022 13:44:18 | Grain Waves | PreBalance: $2.75 | PostBalance: $50.00 
+29/10/2022 13:44:18 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $50.00 
+29/10/2022 13:44:18 | Moonpie | PreBalance: $1.80 | PostBalance: $50.00 
+29/10/2022 13:44:18 | Cowtales | PreBalance: $1.50 | PostBalance: $50.00 
+29/10/2022 13:44:18 | Wonka Bar | PreBalance: $1.50 | PostBalance: $50.00 
+29/10/2022 13:44:18 | Crunchie | PreBalance: $1.75 | PostBalance: $50.00 
+29/10/2022 13:44:18 | Cola | PreBalance: $1.25 | PostBalance: $50.00 
+29/10/2022 13:44:18 | Dr. Salt | PreBalance: $1.50 | PostBalance: $50.00 
+29/10/2022 13:44:18 | Mountain Melter | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Heavy | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:44:18 | U-Chews | PreBalance: $0.85 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Little League Chew | PreBalance: $0.95 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Chiclets | PreBalance: $0.75 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Triplemint | PreBalance: $0.75 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Potato Crisps | PreBalance: $3.05 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Stackers | PreBalance: $1.45 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Grain Waves | PreBalance: $2.75 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Moonpie | PreBalance: $1.80 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Cowtales | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Wonka Bar | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Crunchie | PreBalance: $1.75 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Cola | PreBalance: $1.25 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Dr. Salt | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:44:18 | Mountain Melter | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Heavy | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:44:18 | U-Chews | PreBalance: $0.85 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Little League Chew | PreBalance: $0.95 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Chiclets | PreBalance: $0.75 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Triplemint | PreBalance: $0.75 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Potato Crisps | PreBalance: $3.05 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Stackers | PreBalance: $1.45 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Grain Waves | PreBalance: $2.75 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Moonpie | PreBalance: $1.80 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Cowtales | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Wonka Bar | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Crunchie | PreBalance: $1.75 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Cola | PreBalance: $1.25 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Dr. Salt | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:44:18 | Mountain Melter | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Heavy | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:44:18 | U-Chews | PreBalance: $0.85 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Little League Chew | PreBalance: $0.95 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Chiclets | PreBalance: $0.75 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Triplemint | PreBalance: $0.75 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Potato Crisps | PreBalance: $3.05 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Stackers | PreBalance: $1.45 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Grain Waves | PreBalance: $2.75 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Moonpie | PreBalance: $1.80 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Cowtales | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Wonka Bar | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Crunchie | PreBalance: $1.75 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Cola | PreBalance: $1.25 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Dr. Salt | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:44:18 | Mountain Melter | PreBalance: $1.50 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Heavy | PreBalance: $1.50 | PostBalance: $44.00 
+29/10/2022 13:44:18 | U-Chews | PreBalance: $0.85 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Little League Chew | PreBalance: $0.95 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Chiclets | PreBalance: $0.75 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Triplemint | PreBalance: $0.75 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Potato Crisps | PreBalance: $3.05 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Stackers | PreBalance: $1.45 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Grain Waves | PreBalance: $2.75 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Moonpie | PreBalance: $1.80 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Cowtales | PreBalance: $1.50 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Wonka Bar | PreBalance: $1.50 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Crunchie | PreBalance: $1.75 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Cola | PreBalance: $1.25 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Dr. Salt | PreBalance: $1.50 | PostBalance: $44.00 
+29/10/2022 13:44:18 | Mountain Melter | PreBalance: $1.50 | PostBalance: $42.50 
+29/10/2022 13:44:18 | Heavy | PreBalance: $1.50 | PostBalance: $42.50 
+29/10/2022 13:44:18 | U-Chews | PreBalance: $0.85 | PostBalance: $42.50 
+29/10/2022 13:44:18 | Little League Chew | PreBalance: $0.95 | PostBalance: $42.50 
+29/10/2022 13:44:18 | Chiclets | PreBalance: $0.75 | PostBalance: $42.50 
+29/10/2022 13:44:18 | Triplemint | PreBalance: $0.75 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Cash input | PreBalance: $50.00 | PostBalance: $50.00 
+29/10/2022 13:50:41 | Potato Crisps | PreBalance: $3.05 | PostBalance: $50.00 
+29/10/2022 13:50:41 | Stackers | PreBalance: $1.45 | PostBalance: $50.00 
+29/10/2022 13:50:41 | Grain Waves | PreBalance: $2.75 | PostBalance: $50.00 
+29/10/2022 13:50:41 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $50.00 
+29/10/2022 13:50:41 | Moonpie | PreBalance: $1.80 | PostBalance: $50.00 
+29/10/2022 13:50:41 | Cowtales | PreBalance: $1.50 | PostBalance: $50.00 
+29/10/2022 13:50:41 | Wonka Bar | PreBalance: $1.50 | PostBalance: $50.00 
+29/10/2022 13:50:41 | Crunchie | PreBalance: $1.75 | PostBalance: $50.00 
+29/10/2022 13:50:41 | Cola | PreBalance: $1.25 | PostBalance: $50.00 
+29/10/2022 13:50:41 | Dr. Salt | PreBalance: $1.50 | PostBalance: $50.00 
+29/10/2022 13:50:41 | Mountain Melter | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Heavy | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:50:41 | U-Chews | PreBalance: $0.85 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Little League Chew | PreBalance: $0.95 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Chiclets | PreBalance: $0.75 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Triplemint | PreBalance: $0.75 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Potato Crisps | PreBalance: $3.05 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Stackers | PreBalance: $1.45 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Grain Waves | PreBalance: $2.75 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Moonpie | PreBalance: $1.80 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Cowtales | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Wonka Bar | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Crunchie | PreBalance: $1.75 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Cola | PreBalance: $1.25 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Dr. Salt | PreBalance: $1.50 | PostBalance: $48.50 
+29/10/2022 13:50:41 | Mountain Melter | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Heavy | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:50:41 | U-Chews | PreBalance: $0.85 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Little League Chew | PreBalance: $0.95 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Chiclets | PreBalance: $0.75 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Triplemint | PreBalance: $0.75 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Potato Crisps | PreBalance: $3.05 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Stackers | PreBalance: $1.45 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Grain Waves | PreBalance: $2.75 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Moonpie | PreBalance: $1.80 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Cowtales | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Wonka Bar | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Crunchie | PreBalance: $1.75 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Cola | PreBalance: $1.25 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Dr. Salt | PreBalance: $1.50 | PostBalance: $47.00 
+29/10/2022 13:50:41 | Mountain Melter | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Heavy | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:50:41 | U-Chews | PreBalance: $0.85 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Little League Chew | PreBalance: $0.95 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Chiclets | PreBalance: $0.75 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Triplemint | PreBalance: $0.75 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Potato Crisps | PreBalance: $3.05 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Stackers | PreBalance: $1.45 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Grain Waves | PreBalance: $2.75 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Moonpie | PreBalance: $1.80 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Cowtales | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Wonka Bar | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Crunchie | PreBalance: $1.75 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Cola | PreBalance: $1.25 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Dr. Salt | PreBalance: $1.50 | PostBalance: $45.50 
+29/10/2022 13:50:41 | Mountain Melter | PreBalance: $1.50 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Heavy | PreBalance: $1.50 | PostBalance: $44.00 
+29/10/2022 13:50:41 | U-Chews | PreBalance: $0.85 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Little League Chew | PreBalance: $0.95 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Chiclets | PreBalance: $0.75 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Triplemint | PreBalance: $0.75 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Potato Crisps | PreBalance: $3.05 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Stackers | PreBalance: $1.45 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Grain Waves | PreBalance: $2.75 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Moonpie | PreBalance: $1.80 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Cowtales | PreBalance: $1.50 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Wonka Bar | PreBalance: $1.50 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Crunchie | PreBalance: $1.75 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Cola | PreBalance: $1.25 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Dr. Salt | PreBalance: $1.50 | PostBalance: $44.00 
+29/10/2022 13:50:41 | Mountain Melter | PreBalance: $1.50 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Heavy | PreBalance: $1.50 | PostBalance: $42.50 
+29/10/2022 13:50:41 | U-Chews | PreBalance: $0.85 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Little League Chew | PreBalance: $0.95 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Chiclets | PreBalance: $0.75 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Triplemint | PreBalance: $0.75 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Potato Crisps | PreBalance: $3.05 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Stackers | PreBalance: $1.45 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Grain Waves | PreBalance: $2.75 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Moonpie | PreBalance: $1.80 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Cowtales | PreBalance: $1.50 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Wonka Bar | PreBalance: $1.50 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Crunchie | PreBalance: $1.75 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Cola | PreBalance: $1.25 | PostBalance: $42.50 
+29/10/2022 13:50:41 | Dr. Salt | PreBalance: $1.50 | PostBalance: $42.50 
+29/10/2022 14:17:08 | Cash input | PreBalance: $3.00 | PostBalance: $3.00 
+29/10/2022 14:17:08 | Cash input | PreBalance: $3.00 | PostBalance: $6.00 
+29/10/2022 14:19:07 | Cash input | PreBalance: $3.00 | PostBalance: $3.00 
+29/10/2022 14:20:00 | Cash input | PreBalance: $3.00 | PostBalance: $3.00 
+29/10/2022 14:30:42 | Cash input | PreBalance: $4.00 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Potato Crisps | PreBalance: $3.05 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Stackers | PreBalance: $1.45 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Grain Waves | PreBalance: $2.75 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Moonpie | PreBalance: $1.80 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Cowtales | PreBalance: $1.50 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Wonka Bar | PreBalance: $1.50 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Crunchie | PreBalance: $1.75 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Cola | PreBalance: $1.25 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Dr. Salt | PreBalance: $1.50 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Mountain Melter | PreBalance: $1.50 | PostBalance: $4.00 
+29/10/2022 14:30:42 | Heavy | PreBalance: $1.50 | PostBalance: $4.00 
+29/10/2022 14:30:42 | U-Chews | PreBalance: $0.85 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Little League Chew | PreBalance: $0.95 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Chiclets | PreBalance: $0.75 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Triplemint | PreBalance: $0.75 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Potato Crisps | PreBalance: $3.05 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Stackers | PreBalance: $1.45 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Grain Waves | PreBalance: $2.75 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Moonpie | PreBalance: $1.80 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Cowtales | PreBalance: $1.50 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Wonka Bar | PreBalance: $1.50 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Crunchie | PreBalance: $1.75 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Cola | PreBalance: $1.25 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Dr. Salt | PreBalance: $1.50 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Mountain Melter | PreBalance: $1.50 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Heavy | PreBalance: $1.50 | PostBalance: $3.15 
+29/10/2022 14:30:42 | U-Chews | PreBalance: $0.85 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Little League Chew | PreBalance: $0.95 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Chiclets | PreBalance: $0.75 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Triplemint | PreBalance: $0.75 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Potato Crisps | PreBalance: $3.05 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Stackers | PreBalance: $1.45 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Grain Waves | PreBalance: $2.75 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Cloud Popcorn | PreBalance: $3.65 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Moonpie | PreBalance: $1.80 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Cowtales | PreBalance: $1.50 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Wonka Bar | PreBalance: $1.50 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Crunchie | PreBalance: $1.75 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Cola | PreBalance: $1.25 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Dr. Salt | PreBalance: $1.50 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Mountain Melter | PreBalance: $1.50 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Heavy | PreBalance: $1.50 | PostBalance: $3.15 
+29/10/2022 14:30:42 | U-Chews | PreBalance: $0.85 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Little League Chew | PreBalance: $0.95 | PostBalance: $3.15 
+29/10/2022 14:30:42 | Chiclets | PreBalance: $0.75 | PostBalance: $2.40 
+29/10/2022 14:30:42 | Triplemint | PreBalance: $0.75 | PostBalance: $2.40 
+29/10/2022 14:30:42 | Potato Crisps | PreBalance: $3.05 | PostBalance: $2.40 
+29/10/2022 14:30:42 | Stackers | PreBalance: $1.45 | PostBalance: $2.40 
+05/11/2022 19:44:26 | Cash input | PreBalance: $50.00 | PostBalance: $50.00 
+05/11/2022 19:44:26 | Little League Chew | PreBalance: $0.95 | PostBalance: $49.05 
