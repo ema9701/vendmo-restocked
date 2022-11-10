@@ -520,3 +520,35 @@
 29/10/2022 14:30:42 | Stackers | PreBalance: $1.45 | PostBalance: $2.40 
 05/11/2022 19:44:26 | Cash input | PreBalance: $50.00 | PostBalance: $50.00 
 05/11/2022 19:44:26 | Little League Chew | PreBalance: $0.95 | PostBalance: $49.05 
+09/11/2022 21:06:17 | Cash input | PreBalance: $50.00 | PostBalance: $50.00 
+09/11/2022 21:06:17 | Cash input | PreBalance: $3.00 | PostBalance: $53.00 
+09/11/2022 21:06:17 | Dr. Salt | PreBalance: $1.50 | PostBalance: $51.50 
+09/11/2022 21:06:17 | Dr. Salt | PreBalance: $1.50 | PostBalance: $50.00 
+09/11/2022 21:06:17 | Dr. Salt | PreBalance: $1.50 | PostBalance: $48.50 
+09/11/2022 21:06:17 | Dr. Salt | PreBalance: $1.50 | PostBalance: $47.00 
+09/11/2022 21:06:17 | Dr. Salt | PreBalance: $1.50 | PostBalance: $45.50 
+09/11/2022 21:08:25 | Cash input | PreBalance: $3.00 | PostBalance: $3.00 
+09/11/2022 21:08:25 | Cashed out | PreBalance: $3.00 | PostBalance: $0 
+09/11/2022 21:21:35 | Cash input | PreBalance: $50.00 | PostBalance: $50.00 
+09/11/2022 21:21:35 | Cash input | PreBalance: $3.00 | PostBalance: $53.00 
+09/11/2022 21:21:35 | Cash input | PreBalance: $2.00 | PostBalance: $55.00 
+09/11/2022 21:22:55 | Cash input | PreBalance: $3.00 | PostBalance: $3.00 
+09/11/2022 21:22:55 | Cash input | PreBalance: $10.00 | PostBalance: $13.00 
+09/11/2022 21:22:55 | Chiclets | PreBalance: $0.75 | PostBalance: $12.25 
+09/11/2022 21:22:55 | Chiclets | PreBalance: $0.75 | PostBalance: $11.50 
+09/11/2022 21:22:55 | Chiclets | PreBalance: $0.75 | PostBalance: $10.75 
+09/11/2022 21:22:55 | Chiclets | PreBalance: $0.75 | PostBalance: $10.00 
+09/11/2022 21:22:55 | Chiclets | PreBalance: $0.75 | PostBalance: $9.25 
+09/11/2022 21:22:55 | Triplemint | PreBalance: $0.75 | PostBalance: $8.50 
+09/11/2022 21:22:55 | Triplemint | PreBalance: $0.75 | PostBalance: $7.75 
+09/11/2022 21:22:55 | Triplemint | PreBalance: $0.75 | PostBalance: $7.00 
+09/11/2022 21:22:55 | Triplemint | PreBalance: $0.75 | PostBalance: $6.25 
+09/11/2022 21:22:55 | Triplemint | PreBalance: $0.75 | PostBalance: $5.50 
+09/11/2022 21:22:55 | Little League Chew | PreBalance: $0.95 | PostBalance: $4.55 
+09/11/2022 21:22:55 | Little League Chew | PreBalance: $0.95 | PostBalance: $3.60 
+09/11/2022 21:22:55 | Little League Chew | PreBalance: $0.95 | PostBalance: $2.65 
+09/11/2022 21:22:55 | Little League Chew | PreBalance: $0.95 | PostBalance: $1.70 
+09/11/2022 21:22:55 | Little League Chew | PreBalance: $0.95 | PostBalance: $0.75 
+09/11/2022 21:27:43 | Cash input | PreBalance: $5.00 | PostBalance: $5.00 
+09/11/2022 21:27:43 | Potato Crisps | PreBalance: $3.05 | PostBalance: $1.95 
+09/11/2022 21:28:33 | Cash input | PreBalance: $1.00 | PostBalance: $1.00 
