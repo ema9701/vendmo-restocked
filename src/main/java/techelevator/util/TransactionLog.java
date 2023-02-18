@@ -14,15 +14,20 @@ import java.util.Map;
 
 public class TransactionLog {
 
-    LocalDateTime date = LocalDateTime.now();
-    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
-    String dateInLog = date.format(formatter);
+    private LocalDateTime date = LocalDateTime.now();
+    private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+    private String dateInLog = date.format(formatter);
+    private File transactionLog;
+
+    public TransactionLog() {
+        transactionLog = new File("log.txt");
+    }
+
 
     public void writeToLog(String navigationAudit, BigDecimal prePurchaseBalance, BigDecimal postPurchaseBalance) {
         try {
-            File transactionLog = new File("log.txt");
             FileOutputStream fos = new FileOutputStream(transactionLog, true);
-            PrintWriter writer = new PrintWriter(fos);
+            PrintWriter writer = new PrintWriter(transactionLog);
             writer.printf("%s | %s | PreBalance: $%s | PostBalance: $%s %n", dateInLog, navigationAudit, prePurchaseBalance, postPurchaseBalance);
             writer.close();
         } catch (FileNotFoundException fnf) {
@@ -31,14 +36,4 @@ public class TransactionLog {
     }
 
 
-    public void recordSales(Snack soldSnack) {
-        try {
-            File salesLog = new File("sales.txt");
-            FileOutputStream fos = new FileOutputStream(salesLog, true );
-            PrintWriter writer = new PrintWriter(fos);
-            writer.printf("Name: %s, Quantity: %s", soldSnack.getName(), soldSnack.getPrice());
-        } catch (FileNotFoundException fnf) {
-            fnf.getMessage();
-        }
-    }
 }

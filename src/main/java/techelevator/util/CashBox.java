@@ -16,44 +16,31 @@ public class CashBox {
         return balance;
     }
 
-    public BigDecimal insertCash(BigDecimal cash) {
-        BigDecimal cashRounded = cash.round(new MathContext(1, RoundingMode.DOWN));
-        return balance = balance.add(cashRounded);
+    public void addCash(BigDecimal cash) {
+        if (cash.compareTo(BigDecimal.ZERO) == 1) {
+            this.balance = balance.add(cash.setScale(0, RoundingMode.FLOOR));
+        } else {
+            throw new NumberFormatException();
+        }
     }
 
-    public BigDecimal debitBalance(BigDecimal snackPrice) {
+    public void debitBalance(BigDecimal snackPrice) {
         if (balance.compareTo(snackPrice) == -1) {
             throw new ArithmeticException();
         } else {
-            balance = balance.subtract(snackPrice);
+            this.balance = balance.subtract(snackPrice);
         }
-        return balance;
-    }
-
-    public BigDecimal resetBalance() {
-        return balance = new BigDecimal("0.00");
     }
 
     public String returnChange() {
 
-        int qChange = 0;
-        int dChange = 0;
-        int nChange = 0;
-
-        while (getBalance().compareTo(QUARTER) >= 0) {
-            qChange += 1;
-            debitBalance(QUARTER);
-        }
-        while (getBalance().compareTo(DIME) >= 0) {
-            dChange += 1;
-            debitBalance(DIME);
-        }
-        while (getBalance().compareTo(NICKEL) >= 0) {
-            nChange += 1;
-            debitBalance(NICKEL);
-        }
-        String change = String.format("Your change is %d Quarters, %d Dimes, %d Nickels", qChange, dChange, nChange);
-        return change;
+        BigDecimal[] qChange = getBalance().divideAndRemainder(QUARTER);
+        this.balance = qChange[1];
+        BigDecimal[] dChange = getBalance().divideAndRemainder(DIME);
+        this.balance = dChange[1];
+        BigDecimal[] nChange = getBalance().divideAndRemainder(NICKEL);
+        this.balance = nChange[1];
+        return String.format("Your change is %s Quarters, %s Dimes, %s Nickels", qChange[0], dChange[0], nChange[0]);
     }
 }
 

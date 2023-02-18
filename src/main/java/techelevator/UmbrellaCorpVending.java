@@ -39,7 +39,7 @@ public class UmbrellaCorpVending {
             } else if (menuSelection == 2) {
                 handlePurchaseMenu();
             } else if (menuSelection == 3) {
-                continue;
+                return;
             } else {
                 menu.printError("Invalid selection");
             }
@@ -49,7 +49,7 @@ public class UmbrellaCorpVending {
     private void handlePurchaseMenu() {
         int menuSelection = -1;
         while (menuSelection != 3) {
-            menu.printPurchaseMenu();
+            menu.printPurchaseMenu(cashBox.getBalance());
             menuSelection = menu.menuSelection("Select an option >>> ");
             if (menuSelection == 1) {
                 handleCash();
@@ -57,7 +57,7 @@ public class UmbrellaCorpVending {
                 handleTransaction();
             } else if (menuSelection == 3) {
                 finishTransaction();
-                continue;
+                return;
             } else {
                 menu.printError("**Invalid selection**");
             }
@@ -65,18 +65,13 @@ public class UmbrellaCorpVending {
     }
 
     private void handleCash() {
-        while (true) {
+         {
             try {
                 System.out.printf("Balance: $%s \n", cashBox.getBalance());
                 BigDecimal cashInput = new BigDecimal(menu.promptForSelection("Please enter whole dollar amounts >>> "));
-                cashBox.insertCash(cashInput);
+                cashBox.addCash(cashInput);
                 transactionLog.writeToLog("Cash input", cashInput, cashBox.getBalance());
                 System.out.printf("Balance: $%s \n", cashBox.getBalance());
-                if (menu.promptForSelection("Add more cash Y/N? ").equalsIgnoreCase("y")) {
-                    continue;
-                } else {
-                    return;
-                }
             } catch (NumberFormatException e) {
                 menu.printError("**This machine only accepts whole dollar amounts**");
             }
@@ -94,7 +89,7 @@ public class UmbrellaCorpVending {
             System.out.printf("You bought %s for $%s ", snack.getName(), snack.getPrice());
             System.out.println("\n" + snack.getSound());
             transactionLog.writeToLog(snack.getName(), snack.getPrice(), cashBox.getBalance());
-        } catch (ArithmeticException | NullPointerException e) {
+        } catch (ArithmeticException | IllegalArgumentException e) {
             menu.printError("**Item out of stock or insufficient balance**");
         }
     }

@@ -1,5 +1,6 @@
 package techelevator.util;
 
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 
@@ -36,10 +37,11 @@ public class MenuService {
         System.out.println("3. Exit. ");
     }
 
-    public void printPurchaseMenu() {
+    public void printPurchaseMenu(BigDecimal balance) {
         System.out.println("*******************************");
         System.out.println("*        Purchase Menu        *");
         System.out.println("*******************************");
+        System.out.println("Balance: $" + balance + "\n");
         System.out.println("1. Insert Cash.");
         System.out.println("2. Purchase Item.");
         System.out.println("3. Finish Transaction. ");

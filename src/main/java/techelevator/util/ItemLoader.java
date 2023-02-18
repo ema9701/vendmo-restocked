@@ -82,13 +82,4 @@ public class ItemLoader {
         }
     }
 
-    public Map<String, Integer> getSales() {
-        Map<String, Integer> sales = new HashMap<>();
-        for (Map.Entry<String, Integer> sale : getQuantity().entrySet()) {
-            Snack snack = getNameFromCode(sale.getKey());
-            int noSold = 5 - sale.getValue();
-            sales.put(snack.getName(), noSold);
-        }
-        return sales;
-    }
 }
